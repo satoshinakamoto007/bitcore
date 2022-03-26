@@ -38,7 +38,7 @@
     "inherits": "^2.0.1",
     "istanbul": "^0.4.5",
     "json-stable-stringify": "^1.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "moment": "^2.10.3",
     "mongodb": "^3.5.9",
     "mustache": "^2.1.0",
@@ -54,7 +54,8 @@
     "source-map-support": "^0.5.13",
     "sticky-session": "^0.1.0",
     "uuid": "^3.3.2",
-    "winston": "^3.3.3"
+    "winston": "^3.3.3",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/async": "^2.4.1",
@@ -101,7 +102,9 @@
     "fix:lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
     "fix:style": "prettier --write 'src/**/*.ts'",
     "update:stats": "npm run clean && npm run tsc && chmod +x ./ts_build/updatestats/updatestats.js && ./ts_build/updatestats/updatestats.js ",
-    "clean:fiatrates": "npm run clean && npm run tsc && chmod +x ./ts_build/cleanfiatrates/cleanfiatrates.js && ./ts_build/cleanfiatrates/cleanfiatrates.js "
+    "clean:fiatrates": "npm run clean && npm run tsc && chmod +x ./ts_build/cleanfiatrates/cleanfiatrates.js && ./ts_build/cleanfiatrates/cleanfiatrates.js ",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "bitcoreNode": "./bitcorenode",
   "contributors": [
@@ -118,5 +121,6 @@
       "email": "ematiu@gmail.com"
     }
   ],
-  "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"
+  "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1",
+  "snyk": true
 }

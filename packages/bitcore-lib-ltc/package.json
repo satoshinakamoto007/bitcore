@@ -98,7 +98,7 @@
   "devDependencies": {
     "bitcore-build": "^8.25.10",
     "brfs": "^2.0.1",
-    "chai": "^4.2.0",
+    "chai": "^4.3.6",
     "gulp": "^4.0.0",
     "sinon": "^7.1.1"
   },

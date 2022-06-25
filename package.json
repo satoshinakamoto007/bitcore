@@ -72,7 +72,7 @@
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
     "typedoc": "^0.15.0",
-    "typescript-eslint-parser": "^15.0.0"
+    "typescript-eslint-parser": "^15.0.1"
   },
   "dependencies": {
     "lerna": "^3.22.1",

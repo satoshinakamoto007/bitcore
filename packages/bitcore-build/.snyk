@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gulp-shell > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - karma > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - mocha > yargs-unparser > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - gulp-shell > async > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - gulp-mocha > mocha > yargs-unparser > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2022-10-01T16:54:08.387Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2022-10-01T16:54:08.387Z'

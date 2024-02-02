@@ -114,8 +114,8 @@
     "mkdirp": "0.5.1",
     "mongodb": "3.1.1",
     "progress": "2.0.0",
-    "request": "2.88.0",
-    "ripple-lib": "1.4.2",
+    "request": "2.88.2",
+    "ripple-lib": "1.10.1",
     "rxjs": "6.1.0",
     "secp256k1": "3.5.0",
     "snappy": "6.0.1",
@@ -124,7 +124,7 @@
     "source-map-support": "^0.5.13",
     "through2": "2.0.3",
     "underscore": "1.8.3",
-    "web3": "1.2.4",
+    "web3": "4.0.1",
     "winston": "3.2.0"
   },
   "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"

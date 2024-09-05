@@ -36,10 +36,10 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.4.1",
-    "bitcore-build": "^8.25.10",
+    "bitcore-build": "^8.25.38",
     "brfs": "^2.0.1",
-    "chai": "^4.2.0",
-    "gulp": "^4.0.0",
+    "chai": "^4.3.10",
+    "gulp": "^5.0.0",
     "mocha": "^5.2.0"
   },
   "dependencies": {

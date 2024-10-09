@@ -33,7 +33,7 @@
     "compression": "^1.6.2",
     "crypto-wallet-core": "^8.25.14",
     "email-validator": "^1.0.1",
-    "express": "^4.10.0",
+    "express": "^4.21.1",
     "express-rate-limit": "^2.6.0",
     "inherits": "^2.0.1",
     "istanbul": "^0.4.5",

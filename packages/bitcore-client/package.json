@@ -29,7 +29,7 @@
     "bcrypt": "3.0.8",
     "bitcore-mnemonic": "^8.25.10",
     "commander": "2.15.1",
-    "crypto-wallet-core": "^8.25.14",
+    "crypto-wallet-core": "^10.0.28",
     "elliptic": "^6.5.3",
     "level-js": "4.0.2",
     "leveldown": "5.4.1",
@@ -40,7 +40,7 @@
     "promptly": "3.0.3",
     "request": "2.87.0",
     "request-promise-native": "1.0.5",
-    "secp256k1": "3.7.1",
+    "secp256k1": "3.8.1",
     "source-map-support": "0.5.13"
   },
   "devDependencies": {

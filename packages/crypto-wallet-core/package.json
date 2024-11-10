@@ -44,7 +44,7 @@
     "@types/node": "^14.10.0",
     "@types/web3": "^1.0.19",
     "chai": "4.2.0",
-    "mocha": "6.1.4",
+    "mocha": "6.2.1",
     "ts-node": "8.1.0",
     "tslint": "5.14.0",
     "typescript": "^3.6.5"

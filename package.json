@@ -67,7 +67,7 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-import": "^2.8.0",
     "husky": "^2.4.0",
-    "lint-staged": "^9.5.0",
+    "lint-staged": "^16.0.0",
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",

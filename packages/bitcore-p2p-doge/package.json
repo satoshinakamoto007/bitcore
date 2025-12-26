@@ -25,10 +25,10 @@
     "socks5-client": "^0.3.6"
   },
   "devDependencies": {
-    "bitcore-build": "^8.25.10",
+    "bitcore-build": "^8.25.38",
     "brfs": "^1.2.0",
     "chai": "~1.10.0",
-    "gulp": "^4.0.0",
+    "gulp": "^5.0.0",
     "sinon": "^1.12.2"
   },
   "license": "MIT",
